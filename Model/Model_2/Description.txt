@@ -1,3 +1,10 @@
-The EncoderVideo is one model that we tried that uses only the iterative encoder (no predictor). The first frame is encoded fully with 16 iterations. For the later frames, the diff with the prev one is calculated and these differences are encoded.
-
+In this model: Only iterative encoder (no predictor) is used to compress the videos
 How is it different from the original model: the diff are calculate between the curr and prev frame. In the original model, the diff was calculated betweent the curr and the prediction of the current frame.   
+
+Same Coders:
+The first frame is encoded fully with 16 iterations. For the later frames, the diff with the prev one is calculated and these differences are encoded.
+Training for this using the scripts from Trainers program: iterative_encoder_train_image.py
+
+
+Different Coders:
+The models for first frame encoding and subsequent video frames are different.

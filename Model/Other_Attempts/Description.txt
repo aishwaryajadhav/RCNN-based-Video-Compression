@@ -1,0 +1,7 @@
+compression_model.py --> code for iterative encoder in Keras. compress_train.py --> to train it
+
+Attempt to merge the 2 models in keras --> prednet_compression.py
+This file consists PredNet and within it the iterative encoder (Compressor) imported from Encoder.py 
+This did not work.
+
+full_fine_tune.py tried to train this merged model.

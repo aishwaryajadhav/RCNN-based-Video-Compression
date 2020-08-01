@@ -120,3 +120,5 @@ codes = (np.stack(codes).astype(np.int8) + 1) // 2
 export = np.packbits(codes.reshape(-1))
 
 np.savez_compressed(args.output, shape=codes.shape, codes=export)
+
+

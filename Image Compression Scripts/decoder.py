@@ -76,3 +76,5 @@ for iters in range(min(args.iterations, codes.size(0))):
         os.path.join(args.output, '{:02d}.jpeg'.format(iters)),
         np.squeeze(image.numpy().clip(0, 1) * 255.0).astype(np.uint8)
         .transpose(1, 2, 0))
+
+

@@ -1,1 +1,1 @@
-Training programs for models in Model_1 and Model_2
+Training programs for models in Model_1 and Model_2.  

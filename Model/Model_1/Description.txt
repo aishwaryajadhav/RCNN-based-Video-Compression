@@ -1,3 +1,3 @@
 This is our main model. For a set of (test) videos, it outputs decoded videos currently. The pred_encoder must to modified to output codes as well.
 
-Possibly write an only decoder as well.
+Possibly write an only decoder as well.  

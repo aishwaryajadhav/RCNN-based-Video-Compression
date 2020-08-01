@@ -5,3 +5,4 @@ This file consists PredNet and within it the iterative encoder (Compressor) impo
 This did not work.
 
 full_fine_tune.py tried to train this merged model.
+  
